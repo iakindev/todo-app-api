@@ -1,9 +1,9 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, Res } from '@nestjs/common';
 
 @Controller('todo')
 export class TodoController {
   @Get('/')
-  public getAll(): string {
-    return 'Heyo';
+  public getAll() {
+    return 'Test';
   }
 }
