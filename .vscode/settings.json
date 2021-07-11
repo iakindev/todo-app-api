@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Todo App",
+            "database": "${workspaceFolder:todo-app-api}/prisma/dev.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
